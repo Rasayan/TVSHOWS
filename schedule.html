@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVSHOWS SCHEDULES</title>
+    <link rel="stylesheet" href="stylesheet/schedule.css">
+</head>
+<body>
+
+    <div class="nav">
+        <div class="logo">
+            <h1 class="navbarLogo">TVSHOWS SCHEDULES</h1>
+        </div>
+
+        <div class="searchBar">
+            <form id="searchForm">
+                <input type="text" name="" id="searchCode" placeholder="Enter Country">
+                <input type="date" name="" id="searchDate" placeholder="Enter Date">
+                <button class="searchUser">Search</button>
+            </form> 
+        </div>
+    </div>
+
+    <div class="showResults" id="keepResults">
+        <h2 id="gettingStarted">Enter country code (an <a href="https://en.wikipedia.org/wiki/ISO_3166-1">ISO 3166-1</a> code of the country) and Date</h2>
+    </div>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alata&family=Archivo+Black&family=Merriweather&family=Noto+Sans+Display:wght@500&display=swap');
+        </style>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="appp/schedule.js"></script>
+</body>
+</html>

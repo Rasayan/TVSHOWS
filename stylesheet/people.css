@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d6eadf;
+}
+
+.logo .navbarLogo {
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+}
+
+.searchBar {
+    width: 33%;
+    height: 4vh;
+}
+
+#searchForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchForm #searchOptions {
+    width: 92%;
+    height: 4vh;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.searchBar ion-icon {
+    height: 3.7vh;
+    font-size: 1.3em;
+    font-weight: 1000;
+    padding-left: 8px;
+    padding-right: 4px;
+    background: #fefae0;
+    border: 2px solid black;
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.searchBar .searchUser {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 2px;
+    border: none;
+    background: transparent;
+}
+
+.showResults {
+    margin: 10px 20px;
+    width: 97%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#gettingStarted {
+    font-family: 'Noto Sans Display', sans-serif;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Archivo+Black&family=Noto+Sans+Display:wght@500&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.logo .navbarLogo {
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+}
+
+.searchBar {
+    width: 33%;
+    height: 4vh;
+}
+
+#searchForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchForm #searchOptions {
+    width: 92%;
+    height: 4vh;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.searchBar ion-icon {
+    height: 3.7vh;
+    font-size: 1.3em;
+    font-weight: 1000;
+    padding-left: 8px;
+    padding-right: 4px;
+    background: #fefae0;
+    border: 2px solid black;
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.searchBar .searchUser {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 2px;
+    border: none;
+    background: transparent;
+}
+
+.headOptions{
+    width: 20%;
+}
+
+.headOptions .headList {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 3;
+}
+
+.options {
+    color: black;
+    border: 2px solid black;
+    background-color: #83c5be;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.secondNavbar {
+    padding: 2px 20px;
+    background: #b8e0d2;
+}
+
+.navbarOptions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbarOptionLinks {
+    color: black;
+    letter-spacing: 1px;
+    font-family: 'Noto Sans Display', sans-serif;
+    letter-spacing: 1px;
+    transition: 80ms;
+} 
+
+.navbarOptionLinks:hover {
+    font-size: 1.1em;
+}
+
+
+
+.showResults {
+    margin: 10px 20px;
+    width: 97%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#gettingStarted {
+    font-family: 'Noto Sans Display', sans-serif;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 1055px) {
+    .options {
+      padding: 2px;
+    }
+}
+
+@media only screen and (max-width: 885px) {
+    .headList {
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0;
+        height: 10vh;
+    }
+
+    .options {
+        margin-top: 10px;
+    }
+  }
